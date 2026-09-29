@@ -1,0 +1,2 @@
+model,pos_weight,threshold,test_tiles,true_positive,false_positive,false_negative,true_negative,iou,dice_f1,precision,recall
+U-Net ResNet18 - Weighted BCE + Dice,2.0,0.5,173,3920937,1529723,1512566,66129274,0.5630920208535446,0.7204847997958068,0.7193508676013416,0.7216223125302274

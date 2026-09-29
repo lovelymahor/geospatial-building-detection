@@ -1,0 +1,2 @@
+num_test_tiles,total_tp,total_fp,total_fn,total_tn,global_iou,global_dice,global_precision,global_recall
+173,4459238,2937679,974265,64721318,0.5326891710155143,0.6951039794488406,0.6028508904453023,0.8206930225307673

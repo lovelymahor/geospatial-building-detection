@@ -1,0 +1,16 @@
+{
+  "architecture": "U-Net",
+  "encoder": "ResNet-18",
+  "encoder_weights": null,
+  "input_channels": 3,
+  "output_channels": 1,
+  "patch_size": 256,
+  "batch_size": 16,
+  "learning_rate": 0.001,
+  "epochs": 10,
+  "loss": "BCEWithLogitsLoss + DiceLoss",
+  "optimizer": "Adam",
+  "train_patches": 7218,
+  "validation_patches": 1557,
+  "test_patches": 1557
+}

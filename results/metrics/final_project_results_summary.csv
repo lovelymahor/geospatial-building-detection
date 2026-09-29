@@ -1,0 +1,2 @@
+dataset,total_tiles,train_tiles,validation_tiles,test_tiles,patch_size,patches_per_tile,model,best_model,best_epoch,positive_class_weight,test_threshold,test_iou,test_dice_f1,test_precision,test_recall,mean_building_tile_fpr,mean_building_tile_fnr
+SpaceNet 2 — AOI 3 Paris,1148,802,173,173,256,9,U-Net with ResNet18 encoder,Weighted BCE + Dice,8,2.0,0.5,0.5631,0.7205,0.7194,0.7216,0.046086,0.267226

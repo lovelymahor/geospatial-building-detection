@@ -1,0 +1,5 @@
+relationship,pearson_correlation
+Building coverage vs IoU,0.06349816799265663
+Building coverage vs Dice,0.07795952389249183
+Building coverage vs Precision,0.35161389557918044
+Building coverage vs Recall,-0.09089620746767454

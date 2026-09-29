@@ -1,0 +1,4 @@
+model,architecture,loss,pos_weight,best_epoch,threshold,test_iou,test_dice_f1,test_precision,test_recall
+Baseline BCE + Dice,U-Net ResNet18,BCE + Dice,,7,0.5,0.5327,0.6951,0.6029,0.8207
+Focal + Dice,U-Net ResNet18,Focal + Dice,,7,0.5,0.534,0.6963,0.79,0.6224
+Weighted BCE + Dice,U-Net ResNet18,Weighted BCE + Dice,2.0,8,0.5,0.5631,0.7205,0.7194,0.7216

@@ -1,0 +1,2 @@
+num_test_tiles,building_tiles,mean_tile_iou,median_tile_iou,mean_tile_dice,median_tile_dice,mean_tile_precision,mean_tile_recall,global_iou,global_dice,global_precision,global_recall
+173,95,0.49642377741889926,0.5346406721395882,0.6495507434646292,0.6967633294824579,0.5837860473063777,0.7807266242738324,0.5354871922839195,0.6974818089982546,0.6064370008279407,0.8206930225307673

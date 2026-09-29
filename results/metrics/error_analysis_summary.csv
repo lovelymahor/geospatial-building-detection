@@ -1,0 +1,2 @@
+num_test_tiles,tiles_with_buildings,empty_tiles,mean_iou,median_iou,mean_dice,median_dice,mean_precision,mean_recall
+173,95,78,0.272602652339858,0.3470657124267152,0.3566897146193051,0.5152914356367699,0.32057615314512067,0.4287227127515264

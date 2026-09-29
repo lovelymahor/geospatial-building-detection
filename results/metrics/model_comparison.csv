@@ -1,0 +1,3 @@
+experiment,loss,threshold,iou,dice_f1,precision,recall,true_positive,false_positive,false_negative,true_negative
+Baseline BCE + Dice,BCE + Dice,0.5,0.5327,0.6951,0.6029,0.8207,4459238,2937679,974265,64721318
+Focal + Dice,Focal + Dice,0.5,0.534,0.6963,0.79,0.6224,3381809,898977,2051694,66760020

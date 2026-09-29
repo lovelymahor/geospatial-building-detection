@@ -1,0 +1,5 @@
+relationship,pearson_correlation
+Longitude vs IoU,-0.06477306128558372
+Latitude vs IoU,-0.06705883397618148
+Longitude vs Dice,-0.07325978680099304
+Latitude vs Dice,-0.08745161363614648

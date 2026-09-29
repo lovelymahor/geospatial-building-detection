@@ -1,0 +1,2 @@
+model,threshold,test_tiles,true_positive,false_positive,false_negative,true_negative,iou,dice_f1,precision,recall
+U-Net ResNet18 - Focal + Dice,0.5,173,3381809,898977,2051694,66760020,0.5340417972105631,0.6962545586197745,0.789997210792579,0.6223993986936122
