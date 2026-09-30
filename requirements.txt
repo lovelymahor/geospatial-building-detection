@@ -1,0 +1,16 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+tqdm
+rasterio
+geopandas
+shapely
+pyproj
+torch
+torchvision
+albumentations
+segmentation-models-pytorch
+jupyter
+pyyaml

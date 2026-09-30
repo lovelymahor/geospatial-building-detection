@@ -1,0 +1,59 @@
+project:
+  name: geospatial-building-detection
+  dataset: SpaceNet 2
+  aoi: AOI_3_Paris
+
+data:
+  image_size: 650
+  patch_size: 256
+  patch_starts:
+    - 0
+    - 256
+    - 394
+  patches_per_tile: 9
+
+split:
+  train_tiles: 802
+  validation_tiles: 173
+  test_tiles: 173
+
+model:
+  architecture: unet
+  encoder: resnet18
+  encoder_weights: null
+  in_channels: 3
+  classes: 1
+
+training:
+  batch_size: 16
+  epochs: 10
+  learning_rate: 0.001
+  optimizer: Adam
+  threshold: 0.5
+  seed: 42
+
+experiments:
+  baseline:
+    loss: bce_dice
+
+  focal_dice:
+    loss: focal_dice
+    alpha: 0.25
+    gamma: 2.0
+
+  weighted_bce_dice:
+    loss: weighted_bce_dice
+    positive_class_weight: 2.0
+
+normalization:
+  method: channel_standardization
+  statistics_file: normalization.json
+
+evaluation:
+  metrics:
+    - iou
+    - dice
+    - precision
+    - recall
+  full_tile_reconstruction: true
+  overlap_strategy: mean_probability
